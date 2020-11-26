@@ -27,6 +27,8 @@ closeMenu.click(function () {
 //.hamburger-menu
 //.close
 
+/////////////////////////////// VERSIONE GIUSTA SENZA BUG AL CONTRARIO DI QUELLA PRECEDENTE //////////////////////////////////////////
+/* 
 var bottoneHamburger = $(".fa-bars");
 var closeMenu = $(".fa-times");
 
@@ -38,3 +40,18 @@ bottoneHamburger.click(function () {
 closeMenu.click(function () {
      $(".hamburger-menu").hide();     
 }); 
+
+ */
+////////////////////////////////////// PROVA PERSONALE //////////////////////////////////////
+
+var openMenu = $(".fa-bars");
+var closeMenu = $(".fa-times");
+
+
+openMenu.click(function() {
+    $(".hamburger-menu").show();
+});
+
+closeMenu.click(function() {
+    $(".hamburger-menu").hide();
+});
