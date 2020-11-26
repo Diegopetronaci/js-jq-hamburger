@@ -1,6 +1,6 @@
 
 
-var bottoneHamburger = $(".fa-bars");
+/* var bottoneHamburger = $(".fa-bars");
 var closeMenu = $(".fa-times");
 
 var open = false;
@@ -12,7 +12,6 @@ bottoneHamburger.click(function () {
         $(".hamburger-menu").hide();
         open = true;
     }
-    
 }); 
 
 closeMenu.click(function () {
@@ -23,7 +22,19 @@ closeMenu.click(function () {
         $(".hamburger-menu").show();
         open = true;
     }
-}); 
+});  */
 
 //.hamburger-menu
 //.close
+
+var bottoneHamburger = $(".fa-bars");
+var closeMenu = $(".fa-times");
+
+
+bottoneHamburger.click(function () {
+     $(".hamburger-menu").show();  
+}); 
+
+closeMenu.click(function () {
+     $(".hamburger-menu").hide();     
+}); 

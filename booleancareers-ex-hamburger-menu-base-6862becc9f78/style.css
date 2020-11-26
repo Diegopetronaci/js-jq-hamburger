@@ -90,7 +90,7 @@ header {
         display: none;
     }
     .header-right > a {
-        display: block;
+        display:block;
         height: 100%;
         line-height: 70px;
         float: right;
